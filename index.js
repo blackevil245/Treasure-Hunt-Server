@@ -1,21 +1,20 @@
-var app  = require('express')();
-var PORT = process.env.PORT || 8080;
+'use strict';
+
+const app  = require('express')();
+const PORT = process.env.PORT || 8080;
 
 /**
  * Server module
  */
-var mongoose     = require('mongoose');
-var passport     = require('passport');
-var bodyParser   = require('body-parser');
-var morgan       = require('morgan');
-var flash        = require('connect-flash');
-var cookieParser = require('cookie-parser');
-var session      = require('express-session');
+const mongoose     = require('mongoose');
+const bodyParser   = require('body-parser');
+const morgan       = require('morgan');
+const cookieParser = require('cookie-parser');
 
 /**
  * Database connection
  */
-var configDb = require('./src/config/database');
+const configDb = require('./src/config/database');
 mongoose.connect(configDb.url);
 
 /**
@@ -24,21 +23,23 @@ mongoose.connect(configDb.url);
 app.use(morgan('dev'));
 app.use(cookieParser());
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended : true}));
+app.use(bodyParser.urlencoded({ extended: true }));
 
 /**
  * Routes
  */
 
-
+require('./src/api/profile/profile.route')(app);
+require('./src/api/adventure/adventure.route')(app);
+require('./src/api/item/item.route')(app);
 
 /**
  * Server listening
  */
 
-var server = app.listen(PORT, function() {
-  var host = server.address().address;
-  var port = server.address().port;
+const server = app.listen(PORT, () => {
+  const host = server.address().address;
+  const port = server.address().port;
 
   console.log('Server running at http://%s:%s', host, port);
-})
+});
