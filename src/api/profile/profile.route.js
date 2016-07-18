@@ -1,6 +1,6 @@
 'use strict';
 
-const baseUrl = '/api/profile';
+const baseUrl = '/api/profiles';
 const profile = require('./profile.model');
 // const adventure = require('../adventure/adventure.model');
 // const item = require('../item/item.model');
