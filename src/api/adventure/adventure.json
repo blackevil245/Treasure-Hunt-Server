@@ -1,10 +1,10 @@
 {
-  "collection": [
+  "adventures": [
     {
       "id": "hill-house-curse",
       "name": "Curse of the house on the hill",
       "description": "Dive into the explore of a house, rumored to have been under the curse of the underword. Solve the mystery of the house and remove the curse for good.",
-      "item": [
+      "items": [
         {
           "name": "Blood Chalice",
           "beacon": 1,
@@ -29,7 +29,7 @@
       "id": "atlantis-excavation",
       "name": "Atlantis excavation",
       "description": "",
-      "item": [
+      "items": [
         {
           "name": "Forgotten Crown",
           "beacon": 1,
@@ -54,7 +54,7 @@
       "id": "journey-centre-earth",
       "name": "Journey To The Center Of The Earth",
       "description": "Travel to the core of the green planet, where mysteries are unreveal. What will happen? Who will be there? Nobody knows. And you are here to find out",
-      "item": [
+      "items": [
         {
           "name": "Moon Key",
           "beacon": 1,

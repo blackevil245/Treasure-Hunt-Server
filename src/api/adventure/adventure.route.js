@@ -9,10 +9,6 @@ module.exports = function (app) {
    * Retrieve adventures
    */
   app.get(baseUrl, (req, res) => {
-    if (!adventures) {
-      res.send('error');
-    }
-
     res.json(adventures);
   });
 };
