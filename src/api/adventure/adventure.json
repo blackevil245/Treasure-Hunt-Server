@@ -6,18 +6,21 @@
       "description": "Dive into the explore of a house, rumored to have been under the curse of the underword. Solve the mystery of the house and remove the curse for good.",
       "items": [
         {
+          "id": "blood-chalice",
           "name": "Blood Chalice",
           "beacon": 1,
           "description": "Rumored to have the power to give immotality to the person who drinks water from this chalice.",
           "required": []
         },
         {
+          "id": "holy-water",
           "name": "Holy Water",
           "beacon": 2,
           "description": "Looks like normal water, but who knows what secret it kept!",
           "required": []
         },
         {
+          "id": "the-bible",
           "name": "The Bible",
           "beacon": 3,
           "description": "Who would have an exocism without the holy bible",
@@ -31,18 +34,21 @@
       "description": "",
       "items": [
         {
+          "id": "forgotten-crown",
           "name": "Forgotten Crown",
           "beacon": 1,
           "description": "Said to be Nepture's itself, it still saves its own glory through ages",
           "required": []
         },
         {
+          "id": "neptunes-trident",
           "name": "Neptune's Trident",
           "beacon": 2,
           "description": "Despite it has stayed under the sea for a long time, it glitter with the power of the sea.",
           "required": []
         },
         {
+          "id": "treasure-chest",
           "name": "Treasure Chest",
           "beacon": 3,
           "description": "Gold and diamonds, glory and fame, all in one place. The. Ultimate. Price",
@@ -56,18 +62,21 @@
       "description": "Travel to the core of the green planet, where mysteries are unreveal. What will happen? Who will be there? Nobody knows. And you are here to find out",
       "items": [
         {
+          "id": "moon-key",
           "name": "Moon Key",
           "beacon": 1,
           "description": "A moon shaped stone. It does resemble a key in some way.",
           "required": []
         },
         {
+          "id": "map-to-aztec-temple",
           "name": "Map To Aztec Temple",
           "beacon": 2,
           "description": "Used to navigate to the core of the earth - An Aztec temple.",
           "required": [1]
         },
         {
+          "id": "diamond-skull",
           "name": "Diamond Skull",
           "beacon": 3,
           "description": "Precious, and extravagant, how can one be able to price this?",
