@@ -3,7 +3,7 @@
     {
       "id": "hill-house-curse",
       "name": "Curse of the house on the hill",
-      "description": "Dive into the explore of a house, rumored to have been under the curse of the underword. Solve the mystery of the house and remove the curse for good.",
+      "description": "Explore the house rumored to have been under the curse of the underword. Solve the mystery of the house and remove the curse for good.",
       "items": [
         {
           "id": "blood-chalice",
@@ -31,7 +31,7 @@
     {
       "id": "atlantis-excavation",
       "name": "Atlantis excavation",
-      "description": "",
+      "description": "Dive under the deep of the sea, to discover more than just wrecked ships. A whole treasure are waiting to be discovered",
       "items": [
         {
           "id": "forgotten-crown",
